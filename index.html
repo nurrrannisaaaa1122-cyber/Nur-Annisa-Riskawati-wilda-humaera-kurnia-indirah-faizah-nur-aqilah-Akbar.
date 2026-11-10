@@ -1,0 +1,23 @@
+# Program Menghitung Total Belanja
+
+jumlah_jenis = int(input("Masukkan jumlah jenis barang: "))
+
+total_belanja = 0
+
+for i in range(jumlah_jenis):
+    print(f"\nBarang ke-{i+1}")
+
+    nama = input("Nama barang: ")
+    harga = float(input("Harga barang: "))
+    jumlah = int(input("Jumlah barang: "))
+
+    # Menghitung total harga barang
+    total = harga * jumlah
+
+    # Menambahkan ke total belanja
+    total_belanja += total
+
+    print(f"Total {nama} = Rp{total:,.0f}")
+
+# Menampilkan total seluruh belanja
+print("\nTotal seluruh belanja = Rp{:,.0f}".format(total_belanja))

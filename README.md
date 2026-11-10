@@ -1,1 +1,0 @@
-# Nur-Annisa-Riskawati-wilda-humaera-kurnia-indirah-faizah-nur-aqilah-Akbar.
